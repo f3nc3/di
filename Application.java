@@ -9,3 +9,5 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 }
+
+//Constructor Injection: The GreetingController uses constructor injection to receive an instance of GreetingService. The @Autowired annotation tells Spring to inject the required dependency when creating a GreetingController instance.
